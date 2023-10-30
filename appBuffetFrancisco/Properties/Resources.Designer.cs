@@ -73,9 +73,109 @@ namespace appBuffetFrancisco.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _55450711 {
+            get {
+                object obj = ResourceManager.GetObject("55450711", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f {
+            get {
+                object obj = ResourceManager.GetObject("f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Francisco {
             get {
                 object obj = ResourceManager.GetObject("Francisco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Francisco1 {
+            get {
+                object obj = ResourceManager.GetObject("Francisco1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__1_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__2_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__3_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__4_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__5_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sucos {
+            get {
+                object obj = ResourceManager.GetObject("Sucos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
