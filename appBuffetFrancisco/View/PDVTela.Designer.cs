@@ -90,6 +90,7 @@
             btn_cafe.Size = new Size(80, 72);
             btn_cafe.TabIndex = 4;
             btn_cafe.UseVisualStyleBackColor = true;
+            btn_cafe.Click += btn_cafe_Click;
             // 
             // btn_Refri
             // 
@@ -99,6 +100,7 @@
             btn_Refri.Size = new Size(85, 72);
             btn_Refri.TabIndex = 5;
             btn_Refri.UseVisualStyleBackColor = true;
+            btn_Refri.Click += btn_Refri_Click;
             // 
             // btn_BolinhoQueijo
             // 
@@ -108,6 +110,7 @@
             btn_BolinhoQueijo.Size = new Size(75, 60);
             btn_BolinhoQueijo.TabIndex = 6;
             btn_BolinhoQueijo.UseVisualStyleBackColor = true;
+            btn_BolinhoQueijo.Click += btn_BolinhoQueijo_Click;
             // 
             // btn_Sucos
             // 
@@ -117,6 +120,7 @@
             btn_Sucos.Size = new Size(83, 72);
             btn_Sucos.TabIndex = 7;
             btn_Sucos.UseVisualStyleBackColor = true;
+            btn_Sucos.Click += btn_Sucos_Click;
             // 
             // groupBox1
             // 
@@ -140,6 +144,7 @@
             btn_Esfiha.Size = new Size(83, 60);
             btn_Esfiha.TabIndex = 8;
             btn_Esfiha.UseVisualStyleBackColor = true;
+            btn_Esfiha.Click += btn_Esfiha_Click;
             // 
             // btn_Pastel
             // 
@@ -173,7 +178,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // label2
             // 
@@ -204,6 +208,7 @@
             btn_Cancelar.TabIndex = 13;
             btn_Cancelar.Text = "Cancelar";
             btn_Cancelar.UseVisualStyleBackColor = true;
+            btn_Cancelar.Click += btn_Cancelar_Click;
             // 
             // btn_finalizar
             // 
@@ -302,6 +307,7 @@
             btn_Add.Text = "Adicionar";
             btn_Add.TextAlign = ContentAlignment.TopRight;
             btn_Add.UseVisualStyleBackColor = true;
+            btn_Add.Click += btn_Add_Click;
             // 
             // PDVTela
             // 
