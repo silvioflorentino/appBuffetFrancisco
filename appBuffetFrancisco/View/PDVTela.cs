@@ -26,5 +26,18 @@ namespace appBuffetFrancisco.View
         {
 
         }
+
+        private void btn_Pastel_Click(object sender, EventArgs e)
+        {
+            string registrosPastel = "12";
+
+            txb_Codigo.Text = registrosPastel;
+        }
+
+        private void btn_Coxinha_Click(object sender, EventArgs e)
+        {
+            string registrosCoxinha = "13";
+            txb_Codigo.Text = registrosCoxinha;
+        }
     }
 }
