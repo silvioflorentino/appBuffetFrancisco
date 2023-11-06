@@ -93,7 +93,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(100, 152);
+            label6.Location = new Point(93, 260);
             label6.Name = "label6";
             label6.Size = new Size(56, 25);
             label6.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             lbl_TotalFinal.AutoSize = true;
             lbl_TotalFinal.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_TotalFinal.Location = new Point(218, 152);
+            lbl_TotalFinal.Location = new Point(211, 260);
             lbl_TotalFinal.Name = "lbl_TotalFinal";
             lbl_TotalFinal.Size = new Size(82, 25);
             lbl_TotalFinal.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(91, 200);
+            label8.Location = new Point(84, 308);
             label8.Name = "label8";
             label8.Size = new Size(220, 30);
             label8.TabIndex = 7;
@@ -124,7 +124,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(395, 239);
+            ClientSize = new Size(395, 389);
             Controls.Add(label8);
             Controls.Add(lbl_TotalFinal);
             Controls.Add(label6);

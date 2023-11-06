@@ -366,11 +366,11 @@
         private Label label5;
         private NumericUpDown numUpDown_Qtd;
         private TextBox txb_Codigo;
-        private DataGridView dataGridView_PDV;
         private DataGridViewTextBoxColumn Produto;
         private DataGridViewTextBoxColumn Qtde;
         private DataGridViewTextBoxColumn Unitário;
         private DataGridViewTextBoxColumn Total;
         private Button btn_Add;
+        protected DataGridView dataGridView_PDV;
     }
 }

@@ -12,9 +12,15 @@ namespace appBuffetFrancisco.View
 {
     public partial class TelaFecharVenda : Form
     {
-        public TelaFecharVenda()
+        PDVTela tela;
+
+        public TelaFecharVenda(PDVTela pDVTela)
         {
             InitializeComponent();
+
+            tela = pDVTela;
+            lbl_TotalFinal.Text = Convert.ToString(tela.totalfinal);
+           // tela.dataGridView_PDV.Rows[indiceDaLinha].Cells["nomeDaCelula"].Value.toString();
         }
 
         private void TelaFecharVenda_Load(object sender, EventArgs e)

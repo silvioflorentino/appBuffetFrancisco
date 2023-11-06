@@ -12,7 +12,7 @@ namespace appBuffetFrancisco.View
 {
     public partial class PDVTela : Form
     {
-        int totalfinal = 0;
+        public int totalfinal = 0;
 
         public PDVTela()
         {
@@ -91,7 +91,7 @@ namespace appBuffetFrancisco.View
 
         private void btn_finalizar_Click(object sender, EventArgs e)
         {
-            TelaFecharVenda telaFechar = new TelaFecharVenda();
+            TelaFecharVenda telaFechar = new TelaFecharVenda(this);
             telaFechar.Show();
         }
     }
