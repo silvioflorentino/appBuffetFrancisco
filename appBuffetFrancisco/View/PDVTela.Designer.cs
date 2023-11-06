@@ -218,6 +218,7 @@
             btn_finalizar.TabIndex = 14;
             btn_finalizar.Text = "Receber e Finalizar";
             btn_finalizar.UseVisualStyleBackColor = true;
+            btn_finalizar.Click += btn_finalizar_Click;
             // 
             // label4
             // 

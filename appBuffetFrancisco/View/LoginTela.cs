@@ -20,24 +20,31 @@ namespace appBuffetFrancisco.View
 
         private void btn_Sair_Click(object sender, EventArgs e)
         {
+            //Para fechar a aplicação
             Application.Exit();
         }
 
         private void btn_Acessar_Click(object sender, EventArgs e)
         {
+            //Tem variável do tipo texto que recebe da ferramente textBox
             string usuario = txb_Usuario.Text;
             string senha = txb_Senha.Text;
 
+            //O algoritmo para verificar as credenciais e permitir o acesso
             if (usuario == "admin" && senha == "123")
             {
-                this.Hide();
+                //Vai fechar a tela de login e abrir a tela de menu
+                this.Hide(); //this ->este hide->esconde/oculta
+                //Instaciar a tela de menu
                 MenuTela Menu = new MenuTela();
+                //a tela menu ira fechar, junto com todo a aplicação
+                //Porém, irá abrir a tela menu novamente.
                 Menu.FormClosed += (s, args) => this.Close();
                 Menu.Show();
             }
             else
             {
-                MessageBox.Show("Senha ou usuario incorreto");
+                MessageBox.Show("Senha ou usuário incorreto");
 
             }
         }

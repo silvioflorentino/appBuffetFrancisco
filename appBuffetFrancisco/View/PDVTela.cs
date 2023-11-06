@@ -73,22 +73,13 @@ namespace appBuffetFrancisco.View
         {
             int codigo = Convert.ToInt32(txb_Codigo.Text);
             int qtd = ((int)numUpDown_Qtd.Value);
-
-
             string[] itens = { "Pastel", "Coxinha", "Esfiha", "Bolinho de Queijo", "Sucos", "Refrigerante", "Café" };
             int[] valor = { 8, 8, 8, 8, 12, 10, 15 };
-
             int total = qtd * valor[codigo - 12];
-
             totalfinal += total;
-
-            dataGridView_PDV.Rows.Add(itens[codigo - 12], qtd, valor[codigo - 11], total);
-
+            dataGridView_PDV.Rows.Add(itens[codigo - 12], qtd, valor[codigo - 12], total);
             lbl_ValorTotal.Text = "R$ " + totalfinal.ToString() + ",00";
-
-
         }
-
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
             lbl_ValorTotal.Text = string.Empty;
@@ -96,6 +87,12 @@ namespace appBuffetFrancisco.View
             numUpDown_Qtd.Value = 0;
             dataGridView_PDV.Rows.Clear();
             totalfinal = 0;
+        }
+
+        private void btn_finalizar_Click(object sender, EventArgs e)
+        {
+            TelaFecharVenda telaFechar = new TelaFecharVenda();
+            telaFechar.Show();
         }
     }
 }
