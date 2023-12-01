@@ -91,7 +91,7 @@ namespace appBuffetFrancisco.View
 
         private void btn_finalizar_Click(object sender, EventArgs e)
         {
-            TelaFecharVenda telaFechar = new TelaFecharVenda(this);
+           TelaFecharVenda telaFechar = new TelaFecharVenda(this);
             telaFechar.Show();
         }
     }

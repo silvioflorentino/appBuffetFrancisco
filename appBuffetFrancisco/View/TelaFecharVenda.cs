@@ -19,8 +19,18 @@ namespace appBuffetFrancisco.View
             InitializeComponent();
 
             tela = pDVTela;
+
             lbl_TotalFinal.Text = Convert.ToString(tela.totalfinal);
-           // tela.dataGridView_PDV.Rows[indiceDaLinha].Cells["nomeDaCelula"].Value.toString();
+
+            for (int i = 0; i < tela.dataGridView_PDV.RowCount - 1; i++)
+            {
+                lbl_todos.Text += i + 1.ToString();
+                lbl_todos.Text += "        " + tela.dataGridView_PDV.Rows[i].Cells[0].Value.ToString();
+                lbl_todos.Text += "        " + tela.dataGridView_PDV.Rows[i].Cells[1].Value.ToString();
+                lbl_todos.Text += "        " + tela.dataGridView_PDV.Rows[i].Cells[2].Value.ToString();
+                lbl_todos.Text += "        " + tela.dataGridView_PDV.Rows[i].Cells[3].Value.ToString();
+            }
+            //listBox1.Items.Add(tela.dataGridView_PDV.Rows[0].Cells[0].Value.ToString());
         }
 
         private void TelaFecharVenda_Load(object sender, EventArgs e)

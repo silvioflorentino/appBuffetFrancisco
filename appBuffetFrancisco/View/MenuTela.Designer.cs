@@ -89,7 +89,7 @@
             // sumárioToolStripMenuItem
             // 
             sumárioToolStripMenuItem.Name = "sumárioToolStripMenuItem";
-            sumárioToolStripMenuItem.Size = new Size(118, 22);
+            sumárioToolStripMenuItem.Size = new Size(180, 22);
             sumárioToolStripMenuItem.Text = "&Créditos";
             // 
             // pictureBox1

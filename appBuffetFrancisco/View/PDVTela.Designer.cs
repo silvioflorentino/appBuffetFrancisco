@@ -273,6 +273,7 @@
             dataGridView_PDV.GridColor = SystemColors.Info;
             dataGridView_PDV.Location = new Point(450, 151);
             dataGridView_PDV.Name = "dataGridView_PDV";
+            dataGridView_PDV.RightToLeft = RightToLeft.No;
             dataGridView_PDV.RowHeadersVisible = false;
             dataGridView_PDV.RowTemplate.Height = 25;
             dataGridView_PDV.Size = new Size(403, 187);
@@ -365,12 +366,12 @@
         private Label label4;
         private Label label5;
         private NumericUpDown numUpDown_Qtd;
-        private TextBox txb_Codigo;
         private DataGridViewTextBoxColumn Produto;
         private DataGridViewTextBoxColumn Qtde;
         private DataGridViewTextBoxColumn Unitário;
         private DataGridViewTextBoxColumn Total;
         private Button btn_Add;
-        protected DataGridView dataGridView_PDV;
+        public DataGridView dataGridView_PDV;
+        public TextBox txb_Codigo;
     }
 }

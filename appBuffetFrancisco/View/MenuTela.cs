@@ -25,7 +25,7 @@ namespace appBuffetFrancisco.View
         private void desfazerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //instaciando a tela PDVTela
-            
+
             //tipo   objeto       classe
             PDVTela pDVTela = new PDVTela();
             //mostra a tela PDVTela
